@@ -24,6 +24,39 @@ Fastest path:
 3. Run `make run`.
 4. Open `outputs/founder_retention_memo.md`.
 
+## Output preview
+
+The included sample run produces:
+
+- `outputs/founder_retention_memo.md`: founder-ready retention and expansion memo
+- `outputs/customer_health_scorecard.csv`: customer health, retention risk, expansion readiness, and founder attention
+- `outputs/renewal_risk_queue.csv`: renewal risks ranked by timing, value, and owner action
+- `outputs/expansion_opportunity_queue.csv`: accounts ready for expansion motion
+- `outputs/founder_attention_queue.csv`: accounts needing executive touch
+- `outputs/churn_driver_summary.csv`: churn drivers with affected accounts and revenue at risk
+- `outputs/customer_proof_opportunities.csv`: reference, case study, and proof candidates
+
+## 7-day Founder's Office sprint
+
+- Day 1: Export activated customer health data
+- Day 2: Clean renewal dates, usage, adoption, support, and stakeholder signals
+- Day 3: Run the retention and expansion workflow
+- Day 4: Review renewal risk and founder attention queues
+- Day 5: Assign save plans, expansion motions, and proof asks
+- Day 6: Update CS, CRM, support, and product trackers
+- Day 7: Roll customer health signal into weekly review or board narrative
+
+## Founder's Office signal
+
+This repo demonstrates:
+
+- post-activation revenue protection
+- renewal and expansion prioritization
+- customer proof identification
+- churn driver synthesis
+- executive touch planning
+- customer health memo creation
+
 ## The founder problem
 
 Founders often track sales and onboarding, but lose visibility after activation. Retention risk hides inside declining usage, weak adoption, unpaid invoices, product gaps, stakeholder changes, support tickets, renewal proximity, and silent customers.
