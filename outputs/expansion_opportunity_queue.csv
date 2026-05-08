@@ -1,0 +1,14 @@
+priority_rank,account_id,customer_name,contract_value,expansion_signal,expansion_readiness_score,suggested_expansion_motion,owner,next_step,expected_leverage
+1,A017,Pioneer Data Co,165000.0,upsell requested,89,Package upgrade proposal with success proof.,Vikram Rao,Founder review of expansion path,"Can turn $165,000 account into expansion pipeline."
+2,A010,Redwood BioWorks,118000.0,upsell requested,89,Package upgrade proposal with success proof.,Arjun Sethi,Prepare upgrade proposal with value proof,"Can turn $118,000 account into expansion pipeline."
+3,A022,Helio AI Studio,41000.0,product-led expansion signal,88,Seat expansion discovery with account owner and CS.,Tess Morgan,Prepare case study ask after value proof,"Can turn $41,000 account into expansion pipeline."
+4,A001,Northstar Analytics,84000.0,more seats requested,87,Seat expansion discovery with account owner and CS.,Ivan Chen,Schedule expansion discovery with VP Operations,"Can turn $84,000 account into expansion pipeline."
+5,A007,Summit Legal Ops,54000.0,product-led expansion signal,87,Seat expansion discovery with account owner and CS.,Priya Desai,Confirm expansion trigger and proof angle,"Can turn $54,000 account into expansion pipeline."
+6,A020,Maple Support Cloud,26000.0,more seats requested,87,Seat expansion discovery with account owner and CS.,Aria Patel,Ask for reference after expansion discovery,"Can turn $26,000 account into expansion pipeline."
+7,A024,Willow Health Tech,76000.0,usage growth,83,Map new team use case and quantify incremental value.,Meera Joshi,Confirm measurable outcomes for reference,"Can turn $76,000 account into expansion pipeline."
+8,A013,BluePeak Manufacturing,62000.0,usage growth,82,Map new team use case and quantify incremental value.,Farah Khan,Confirm second site expansion interest,"Can turn $62,000 account into expansion pipeline."
+9,A004,Clearwater Finance,68000.0,mild interest,81,Confirm value proof before starting expansion motion.,Nora Shah,Confirm value proof and monitor renewal,"Can turn $68,000 account into expansion pipeline."
+10,A023,Granite Wealth Partners,105000.0,mild interest,74,Confirm value proof before starting expansion motion.,Peter Nolan,Run executive business review,Keeps customer health visible before renewal risk grows.
+11,A005,Juniper Learning,32000.0,new team interested,70,Map new team use case and quantify incremental value.,Tara Iyer,Map new department use case,Keeps customer health visible before renewal risk grows.
+12,A015,Cedar Security,134000.0,more seats requested,67,Seat expansion discovery with account owner and CS.,Nadia Singh,Resolve support load before expansion,Keeps customer health visible before renewal risk grows.
+13,A008,Evergreen Energy Labs,175000.0,champion asks roadmap,64,Use roadmap conversation to validate expansion use case.,Omar Nasser,Product and procurement alignment call,Keeps customer health visible before renewal risk grows.

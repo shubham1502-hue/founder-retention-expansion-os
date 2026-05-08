@@ -1,0 +1,93 @@
+company_name: "Acme Retention Systems"
+stage: "Seed"
+business_model: "B2B SaaS"
+retention_model: "Customer success led renewals with product-led expansion signals"
+renewal_cycle_days: 365
+expansion_motion: "Seat expansion plus plan upgrade after value proof"
+analysis_date: "2026-05-08"
+high_value_threshold: 75000
+founder_intervention_threshold: 85
+
+health_score_thresholds:
+  healthy: 80
+  watch: 60
+  at_risk: 40
+  critical_below: 40
+
+target_segments:
+  - Mid-market
+  - Enterprise
+  - Startup
+  - Strategic
+
+customer_health_signals:
+  - usage_trend
+  - product_adoption_score
+  - active_user_ratio
+  - support_tickets_open
+  - critical_tickets_open
+  - nps_score
+  - last_customer_touchpoint_date
+  - last_business_review_date
+  - stakeholder_change
+  - payment_status
+  - product_gap
+
+churn_risk_signals:
+  - declining usage
+  - low adoption
+  - critical support tickets
+  - stakeholder change
+  - unpaid invoice
+  - product gap
+  - renewal risk signal
+  - churn risk signal
+
+expansion_signals:
+  - usage growth
+  - more seats requested
+  - upsell requested
+  - product-led expansion signal
+  - new team interested
+  - champion asks roadmap
+
+reference_signals:
+  - high NPS
+  - strong champion
+  - measurable value proof
+  - high adoption
+  - healthy renewal outlook
+
+escalation_rules:
+  stale_touchpoint_days: 21
+  stale_business_review_days: 120
+  renewal_review_window_days: 90
+  critical_ticket_escalation: true
+  high_value_founder_review: true
+  founder_review_categories:
+    - Founder intervention now
+    - Executive review this week
+
+owner_roles:
+  account_owner: "Commercial owner for renewal and expansion"
+  customer_success_owner: "Owns health plan and value proof"
+  executive_sponsor: "Exec sponsor for high-value or at-risk accounts"
+  product_owner: "Owns product gap response"
+  finance_owner: "Owns payment risk"
+
+review_cadence:
+  weekly_retention_review: "Monday"
+  renewal_risk_review: "Tuesday"
+  expansion_review: "Wednesday"
+  customer_proof_review: "Friday"
+
+tools_used:
+  - CSV export
+  - CRM
+  - Customer success tracker
+  - Support ticket system
+  - Product analytics
+  - Spreadsheet
+
+sensitive_data_note: "Use synthetic or internal-only customer data. Do not commit private customer data to a public fork."
+data_context_note: "Sample data is synthetic and fictionalized for demo use. Replace it with your own internal customer health tracker before making customer decisions."

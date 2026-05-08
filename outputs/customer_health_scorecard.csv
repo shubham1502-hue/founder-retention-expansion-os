@@ -1,0 +1,26 @@
+account_id,customer_name,segment,contract_value,renewal_date,customer_health_score,health_category,retention_risk_score,retention_risk_category,expansion_readiness_score,expansion_category,founder_attention_score,founder_attention_category,recommended_next_action
+A025,Stonebridge Procurement,Enterprise,99000.0,2026-09-30,26,Critical,95,Critical,24,Do not expand,88,Founder intervention now,Founder should contact the executive sponsor and reset the retention plan.
+A006,Halcyon Robotics,Enterprise,96000.0,2026-06-05,19,Critical,95,Critical,19,Do not expand,88,Founder intervention now,Founder should contact the executive sponsor and reset the retention plan.
+A003,Atlas Freight Works,Strategic,152000.0,2026-07-10,38,Critical,85,Critical,30,Do not expand,88,Founder intervention now,Founder should contact the executive sponsor and reset the retention plan.
+A012,Silverline Insurance,Enterprise,142000.0,2026-05-20,37,Critical,85,Critical,30,Do not expand,82,Executive review this week,"Create a save plan with owner, customer sponsor, risk driver, and due date."
+A002,Beacon Clinic Group,Enterprise,128000.0,2026-05-28,51,At risk,78,At risk,30,Do not expand,82,Executive review this week,Run renewal value proof review and confirm renewal owner.
+A019,Orchid Payments,Enterprise,121000.0,2026-05-25,56,At risk,78,At risk,30,Do not expand,82,Executive review this week,Run renewal value proof review and confirm renewal owner.
+A001,Northstar Analytics,Mid-market,84000.0,2026-06-15,85,Healthy,20,Low risk,87,Expansion-ready,62,Owner follow-up,Seat expansion discovery with account owner and CS.
+A021,Terrace Construction Tech,Mid-market,59000.0,2026-07-05,46,At risk,85,Critical,30,Do not expand,61,Owner follow-up,"Create a save plan with owner, customer sponsor, risk driver, and due date."
+A016,Marigold Marketplace,Mid-market,71000.0,2026-06-18,60,Watch,78,At risk,30,Do not expand,59,Owner follow-up,Run renewal value proof review and confirm renewal owner.
+A017,Pioneer Data Co,Strategic,165000.0,2026-10-10,87,Healthy,14,Low risk,89,Expansion-ready,56,Owner follow-up,Package upgrade proposal with success proof.
+A009,Quartz Retail Systems,Mid-market,47000.0,2026-06-25,57,At risk,60,At risk,35,Not yet,55,Owner follow-up,Run renewal value proof review and confirm renewal owner.
+A023,Granite Wealth Partners,Enterprise,105000.0,2026-06-30,72,Watch,40,Watch,74,Expansion candidate,55,Owner follow-up,Run renewal value proof review and confirm renewal owner.
+A024,Willow Health Tech,Mid-market,76000.0,2026-10-01,84,Healthy,17,Low risk,83,Expansion-ready,54,Owner follow-up,Map new team use case and quantify incremental value.
+A010,Redwood BioWorks,Enterprise,118000.0,2026-11-15,87,Healthy,13,Low risk,89,Expansion-ready,54,Owner follow-up,Package upgrade proposal with success proof.
+A008,Evergreen Energy Labs,Strategic,175000.0,2026-08-01,63,Watch,40,Watch,64,Expansion candidate,53,Owner follow-up,Run a success plan review around the main churn signal.
+A015,Cedar Security,Enterprise,134000.0,2026-08-18,67,Watch,40,Watch,67,Expansion candidate,53,Owner follow-up,Run a success plan review around the main churn signal.
+A013,BluePeak Manufacturing,Mid-market,62000.0,2026-07-22,83,Healthy,20,Low risk,82,Expansion-ready,40,Owner follow-up,Map new team use case and quantify incremental value.
+A007,Summit Legal Ops,Mid-market,54000.0,2026-09-15,86,Healthy,15,Low risk,87,Expansion-ready,39,Monitor,Seat expansion discovery with account owner and CS.
+A005,Juniper Learning,Startup,32000.0,2026-12-20,72,Watch,28,Low risk,70,Expansion candidate,37,Monitor,Run a success plan review around the main churn signal.
+A020,Maple Support Cloud,Startup,26000.0,2027-02-14,86,Healthy,14,Low risk,87,Expansion-ready,37,Monitor,Seat expansion discovery with account owner and CS.
+A022,Helio AI Studio,Startup,41000.0,2026-12-01,88,Healthy,12,Low risk,88,Expansion-ready,36,Monitor,Seat expansion discovery with account owner and CS.
+A004,Clearwater Finance,Mid-market,68000.0,2026-10-30,84,Healthy,17,Low risk,81,Expansion-ready,33,Monitor,Confirm value proof before starting expansion motion.
+A018,Riverbend Logistics,Mid-market,52000.0,2026-09-01,72,Watch,40,Watch,55,Not yet,32,Monitor,Schedule a customer touchpoint and document value proof.
+A011,Harbor HR Cloud,Startup,29000.0,2027-01-31,76,Watch,23,Low risk,55,Not yet,27,Monitor,Monitor account and keep health signals current.
+A014,Acorn Accounting Group,Startup,18000.0,2026-12-31,83,Healthy,17,Low risk,55,Not yet,22,Monitor,Monitor account and keep health signals current.

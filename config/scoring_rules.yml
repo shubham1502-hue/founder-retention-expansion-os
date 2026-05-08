@@ -1,0 +1,48 @@
+score_version: "2026-05-08"
+methodology: "Transparent weighted scoring. Higher customer health and expansion scores are better. Higher retention risk and founder attention scores need more action."
+
+weights:
+  usage_trend: 1.2
+  product_adoption_score: 1.2
+  active_user_ratio: 1.0
+  support_ticket_load: 0.8
+  critical_ticket_load: 1.2
+  nps_score: 0.9
+  days_since_last_touchpoint: 0.8
+  days_since_last_business_review: 0.7
+  stakeholder_change: 1.0
+  payment_status: 0.9
+  product_gap_severity: 1.1
+  renewal_proximity: 1.1
+  churn_risk_signal: 1.4
+  expansion_signal: 1.0
+  reference_potential: 0.5
+  contract_value: 0.9
+  founder_attention_need: 1.5
+
+category_thresholds:
+  customer_health:
+    healthy: 80
+    watch: 60
+    at_risk: 40
+    critical_below: 40
+  retention_risk:
+    critical: 80
+    at_risk: 60
+    watch: 35
+    low_risk_below: 35
+  expansion_readiness:
+    expansion_ready: 80
+    expansion_candidate: 60
+    not_yet: 35
+    do_not_expand_below: 35
+  founder_attention:
+    founder_intervention_now: 85
+    executive_review_this_week: 65
+    owner_follow_up: 40
+    monitor: 20
+
+notes:
+  - Scores are deterministic and use only CSV fields plus this YAML file.
+  - Edit weights to match your business model and customer success motion.
+  - Review account_score_explanations.csv before acting on any score.
