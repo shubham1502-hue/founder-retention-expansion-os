@@ -138,6 +138,7 @@ Use this repo with the Founder OS ecosystem if you want to connect customer heal
 
 - Use after `founder-customer-onboarding-os` when customers reach activation.
 - Feed renewal risk, expansion signals, churn drivers, and founder attention accounts into `founder-weekly-operating-review-agent`.
+- Feed churn drivers, product gaps, expansion asks, customer proof opportunities, and renewal risks into [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) when customer signals should become roadmap decisions.
 - Feed material retention or expansion risk into `board-pack-investor-update-agent` when investor narrative matters.
 - Use `founder-ai-workflow-roi-os` when retention workflows become repetitive or ops-heavy.
 
@@ -161,9 +162,14 @@ This repo produces:
 
 After:
 
+- `founder-product-feedback-roadmap-os` when churn drivers, product gaps, expansion asks, customer proof opportunities, or renewal risks should become roadmap priorities, validation needs, non-product fixes, deferrals, or rejects
 - `founder-weekly-operating-review-agent` for weekly review
 - `board-pack-investor-update-agent` for investor or board narrative
 - `founder-ai-workflow-roi-os` if retention workflows should be automated, hired for, outsourced, or left manual
+
+## Product roadmap handoff
+
+[Founder Retention Expansion OS](https://github.com/shubham1502-hue/founder-retention-expansion-os) surfaces churn drivers, product gaps, expansion asks, customer proof opportunities, and renewal risks. [Founder Product Feedback Roadmap OS](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) can turn those signals into roadmap priorities, validation needs, non-product fixes, deferrals, or rejects.
 
 ## Where this fits in the Founder OS
 
@@ -172,6 +178,7 @@ After:
 - Use [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) to diagnose revenue leakage.
 - Use [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) after close-won to track activation.
 - Use [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) after activation to protect renewals and find expansion.
+- Use [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) when retention, churn, expansion, or proof signals should become roadmap decisions.
 - Use [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) to roll risks and opportunities into weekly review.
 - Use [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) for investor narrative.
 - Use [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) to decide what retention workflows to automate.
