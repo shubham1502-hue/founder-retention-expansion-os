@@ -4,6 +4,22 @@ Turn activated customers into retained, expanding, referenceable customers with 
 
 This helps founders prevent activated customers from drifting toward churn, shows which accounts need founder or executive touch, identifies expansion-ready customers, and turns scattered post-activation signals into owner-backed actions.
 
+## Founder quick read
+
+| If you need to know... | Open this |
+| --- | --- |
+| Which customers need founder or executive touch this week | `outputs/founder_attention_queue.csv` |
+| Which renewals are at risk | `outputs/renewal_risk_queue.csv` |
+| Which customers are ready for expansion | `outputs/expansion_opportunity_queue.csv` |
+| Why an account received a score or recommendation | `outputs/account_score_explanations.csv` |
+
+Fastest path:
+
+1. Replace `data/sample_customer_accounts.csv`.
+2. Edit `config/company_profile.yml`.
+3. Run `make run`.
+4. Open `outputs/founder_retention_memo.md`.
+
 ## The founder problem
 
 Founders often track sales and onboarding, but lose visibility after activation. Retention risk hides inside declining usage, weak adoption, unpaid invoices, product gaps, stakeholder changes, support tickets, renewal proximity, and silent customers.
@@ -204,17 +220,17 @@ Required columns:
 
 Open `outputs/founder_retention_memo.md` first.
 
-| Output | What it gives you |
+| Output | What it tells a founder to do next |
 | --- | --- |
-| `outputs/customer_health_scorecard.csv` | Account-level health, retention risk, expansion readiness, founder attention category, and next action |
-| `outputs/renewal_risk_queue.csv` | Ranked renewal and retention risks with owner, action, due timing, and leverage |
-| `outputs/expansion_opportunity_queue.csv` | Ranked expansion opportunities with suggested expansion motion |
-| `outputs/founder_attention_queue.csv` | Accounts that need founder, executive, or owner action this week |
-| `outputs/churn_driver_summary.csv` | Churn drivers by count, affected accounts, revenue at risk, fix, and owner role |
-| `outputs/customer_proof_opportunities.csv` | Reference, champion, and case study opportunities |
-| `outputs/account_score_explanations.csv` | Plain-English reasons behind health, retention, expansion, and founder attention scores |
-| `outputs/founder_retention_memo.md` | Founder-ready weekly retention and expansion memo |
-| `outputs/retention_expansion_operating_review.md` | Weekly retention and expansion review agenda |
+| `outputs/customer_health_scorecard.csv` | Review account health, risk category, expansion category, founder attention category, and recommended next action |
+| `outputs/renewal_risk_queue.csv` | Prioritize renewal saves by risk, owner, founder action, due timing, and expected leverage |
+| `outputs/expansion_opportunity_queue.csv` | Decide which expansion motions should move to discovery, proposal, value proof, or delay |
+| `outputs/founder_attention_queue.csv` | Decide which accounts need founder intervention, executive review, or owner follow-up this week |
+| `outputs/churn_driver_summary.csv` | Pick recurring churn drivers to fix, with affected accounts, revenue at risk, suggested fix, and owner role |
+| `outputs/customer_proof_opportunities.csv` | Choose reference, champion, and case study asks with owner and next step |
+| `outputs/account_score_explanations.csv` | Audit why each health, retention, expansion, and founder attention recommendation was assigned |
+| `outputs/founder_retention_memo.md` | Read the weekly founder memo and commit the next 7-day actions |
+| `outputs/retention_expansion_operating_review.md` | Run the weekly retention and expansion review with decisions, owners, and escalation topics |
 
 ## How to trust the scores
 
