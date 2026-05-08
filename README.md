@@ -8,9 +8,13 @@ This helps founders prevent activated customers from drifting toward churn, show
 
 | If you need to know... | Open this |
 | --- | --- |
+| What should I review first | `outputs/founder_retention_memo.md` |
+| Which activated customers are unhealthy | `outputs/customer_health_scorecard.csv` |
 | Which customers need founder or executive touch this week | `outputs/founder_attention_queue.csv` |
 | Which renewals are at risk | `outputs/renewal_risk_queue.csv` |
 | Which customers are ready for expansion | `outputs/expansion_opportunity_queue.csv` |
+| Which churn drivers need owner action | `outputs/churn_driver_summary.csv` |
+| Which customers could become proof, references, or case studies | `outputs/customer_proof_opportunities.csv` |
 | Why an account received a score or recommendation | `outputs/account_score_explanations.csv` |
 
 Fastest path:
@@ -244,6 +248,15 @@ The base workflow uses deterministic scoring. It does not call an LLM, paid API,
 - You can edit the weights and thresholds without changing code.
 
 Use the scores as a founder review system, not as an automatic customer decision engine.
+
+| Score | Direction | Founder interpretation |
+| --- | --- | --- |
+| Customer health score | Higher is better | 80 to 100 is Healthy, 60 to 79 is Watch, 40 to 59 is At risk, below 40 is Critical |
+| Retention risk score | Higher means more risk | 80 to 100 is Critical, 60 to 79 is At risk, 35 to 59 is Watch, below 35 is Low risk |
+| Expansion readiness score | Higher is better | 80 to 100 is Expansion-ready, 60 to 79 is Expansion candidate, 35 to 59 is Not yet, below 35 is Do not expand |
+| Founder attention score | Higher means more leadership action | 85 to 100 is Founder intervention now, 65 to 84 is Executive review this week, 40 to 64 is Owner follow-up |
+
+The clearest audit trail is `outputs/account_score_explanations.csv`. It lists health score drivers, retention risk drivers, expansion score drivers, founder attention drivers, recommended next action, and score interpretation for every account.
 
 ## Example founder workflow
 
